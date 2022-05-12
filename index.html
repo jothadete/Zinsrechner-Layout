@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de" >
+<meta charset="UTF-8" />
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+<style></style>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<body>
+
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+  <h1>This is a Heading</h1>
+  <p>This is a paragraph.</p>
+  <p>This is another paragraph.</p>
+
+  <div class="w3-bordered w3-border">
+    <h2>Kenndaten</h2>
+    <div class="w3-row">
+      <div class="w3-third"><label>Anfangskapital</label></div>
+      <div class="w3-third"><input class="w3-input" type="number" step="0.01"></div>
+      <div class="w3-third"> Euro </div>
+    </div>
+    <div class="w3-row">
+      <div class="w3-third"><label>Zinssatz</label></div>
+      <div class="w3-third"><input class="w3-input" type="number" step="0.001"></div>
+      <div class="w3-third"> % p.a. </div>
+    </div>
+    <div class="w3-row">
+      <div class="w3-third"><label>Laufzeit (Jahre)</label></div>
+      <div class="w3-third"><input class="w3-input" type="number" step="1"></div>
+      <div class="w3-third"> Jahre </div>
+    </div>
+  </div>
+
+  <div class="w3-bordered w3-border">
+    <h2 w3->Ergebnis</h2>
+    <table class="w3-table">
+      <tr>
+        <td>Das erzielte Endkapital inkl. Zinsen beträgt:</td>
+        <td>5.123.45</td>
+      </tr>
+      <tr>
+        <td>Zinsen gesamt:</td>
+        <td>123.45</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="w3-bordered w3-border">
+    <h2 w3->Guthabenentwicklung</h2>
+    <table class="w3-table">
+      <tr><th>Jahr</th><th>angelegtes Kapital zu Jahresbeginn</th><th>Zinsen</th><th>Zinsen gesamt</th><th>Kapital inkl. Zinsen am Jahrensende</th></tr>
+      <tr><td>1</td><td>5.000,00</td><td>50,00</td><td>50,00</td><td>5.050,00</td>
+      <tr><td>2</td><td>5.000,00</td><td>50,00</td><td>100,00</td><td>5.150,00</td>
+    </table>
+  </div>
+
+</div>
+
+
+
+
+</body>
+</html>
